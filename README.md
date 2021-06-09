@@ -12,8 +12,11 @@
 
 [//]: #
 
+- **Typescript**
 - **React.js**
 - **Next.js**
+- **Axios**
+- **Emotion**
 
 ## Getting started
 
