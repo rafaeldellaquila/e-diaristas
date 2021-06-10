@@ -1,4 +1,4 @@
-import { experimentalStyled as styled } from '@material-ui/core';
+import { styled } from '@material-ui/core';
 
 export const PageTitleContainer = styled('div')`
   text-align: center;

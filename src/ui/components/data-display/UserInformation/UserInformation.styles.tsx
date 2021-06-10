@@ -1,4 +1,4 @@
-import { experimentalStyled as styled } from '@material-ui/core';
+import { styled } from '@material-ui/core';
 import { Avatar, Rating } from '@material-ui/core';
 
 export const UserInformationContainer = styled('div')`
