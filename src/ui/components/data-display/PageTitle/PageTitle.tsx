@@ -10,11 +10,14 @@ interface PageTitleProps {
   subtitle: string;
 }
 
-const PageTitle: React.FC<PageTitleProps> = (props) => {
+const PageTitle: React.FC<PageTitleProps> = ({
+  title,
+  subtitle,
+}) => {
   return (
     <PageTitleContainer>
-      <PageTitleStyled>{props.title}</PageTitleStyled>
-      <PageSubtitleStyled>{props.subtitle}</PageSubtitleStyled>
+      <PageTitleStyled>{title}</PageTitleStyled>
+      <PageSubtitleStyled>{subtitle}</PageSubtitleStyled>
     </PageTitleContainer>
   );
 };
