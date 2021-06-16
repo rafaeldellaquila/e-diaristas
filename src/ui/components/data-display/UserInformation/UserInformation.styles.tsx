@@ -33,6 +33,7 @@ export const AvatarStyled = styled(Avatar)`
   grid-area: avatar;
   width: 100%;
   height: 100%;
+  aspect-ratio: 1;
   height: initial;
 `;
 
